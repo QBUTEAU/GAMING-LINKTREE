@@ -1,5 +1,18 @@
 $blue : rgb(10, 14, 23);
 $white : #F1F1F1;
+$red : #E12319;
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $red;
+}
+
+::-webkit-scrollbar-track {
+    background: $white;
+}
 
 * {
     font-family: "Outfit";
@@ -75,10 +88,15 @@ header {
         }
     }
 
-    .phrase,
-    .copyright {
+    .phrase {
         text-align: center;
         font-size: 15px;
+    }
+
+    .copyright {
+        width: 60%;
+        text-align: center;
+        font-size: 9px;
     }
 }
 
@@ -157,5 +175,8 @@ $colors: (
 }
 
 .copyright {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Montserrat";
     margin-top: 50px;
 }
