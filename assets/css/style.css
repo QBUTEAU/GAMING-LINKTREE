@@ -1,0 +1,198 @@
+* {
+  font-family: "Outfit";
+}
+
+::selection {
+  background-color: #F1F1F1;
+  color: rgb(10, 14, 23);
+}
+
+body {
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(10, 14, 23);
+  color: #F1F1F1;
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 40px;
+  font-family: "Montserrat";
+  margin: 0;
+}
+header h3 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.phrase {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 700px) {
+  header h1 {
+    font-size: 32px;
+  }
+  header h3 {
+    font-size: 14px;
+  }
+  .id-jeu {
+    width: 170px !important;
+    height: 220px !important;
+  }
+  .id-jeu i {
+    font-size: 75px !important;
+  }
+  .id-jeu p {
+    font-size: 17px !important;
+  }
+  .id-jeu img {
+    height: 75px !important;
+  }
+  .id-jeu span {
+    font-size: 14px !important;
+  }
+  .phrase,
+  .copyright {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+section {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  width: 80vw;
+}
+section .id-jeu {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 270px;
+  width: 200px;
+  transition: 0.25s;
+}
+section .id-jeu i {
+  font-size: 100px;
+  text-align: center;
+}
+section .id-jeu span {
+  text-align: center;
+}
+section .id-jeu p {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+section .id-jeu img {
+  height: 100px;
+  margin: 0 auto;
+}
+
+.pokemon > img {
+  height: 65px !important;
+}
+
+.nintendo > img {
+  height: 30px !important;
+  filter: brightness(0) invert(1);
+}
+
+.playstation {
+  background-color: rgba(0, 55, 145, 0.6);
+  border: 2.5px solid #003791;
+}
+.playstation:hover {
+  background-color: rgba(0, 55, 145, 0.3);
+}
+
+.xbox {
+  background-color: rgba(16, 124, 16, 0.6);
+  border: 2.5px solid #107C10;
+}
+.xbox:hover {
+  background-color: rgba(16, 124, 16, 0.3);
+}
+
+.nintendo {
+  background-color: rgba(230, 0, 18, 0.6);
+  border: 2.5px solid #E60012;
+}
+.nintendo:hover {
+  background-color: rgba(230, 0, 18, 0.3);
+}
+
+.discord {
+  background-color: rgba(114, 137, 218, 0.6);
+  border: 2.5px solid #7289DA;
+}
+.discord:hover {
+  background-color: rgba(114, 137, 218, 0.3);
+}
+
+.epic {
+  background-color: rgba(49, 49, 49, 0.6);
+  border: 2.5px solid #313131;
+}
+.epic:hover {
+  background-color: rgba(49, 49, 49, 0.3);
+}
+
+.riot {
+  background-color: rgba(211, 41, 54, 0.6);
+  border: 2.5px solid #D32936;
+}
+.riot:hover {
+  background-color: rgba(211, 41, 54, 0.3);
+}
+
+.brawl {
+  background-color: rgba(148, 137, 36, 0.6);
+  border: 2.5px solid #948924;
+}
+.brawl:hover {
+  background-color: rgba(148, 137, 36, 0.3);
+}
+
+.clash-royale {
+  background-color: rgba(28, 22, 210, 0.6);
+  border: 2.5px solid #1C16D2;
+}
+.clash-royale:hover {
+  background-color: rgba(28, 22, 210, 0.3);
+}
+
+.pokemon {
+  background-color: rgba(228, 64, 95, 0.6);
+  border: 2.5px solid #E4405F;
+}
+.pokemon:hover {
+  background-color: rgba(228, 64, 95, 0.3);
+}
+
+.sus {
+  background-color: rgba(255, 0, 0, 0.6);
+  border: 2.5px solid #FF0000;
+}
+.sus:hover {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.copyright {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

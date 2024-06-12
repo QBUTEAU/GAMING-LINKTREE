@@ -1,0 +1,161 @@
+$blue : rgb(10, 14, 23);
+$white : #F1F1F1;
+
+* {
+    font-family: "Outfit";
+}
+
+::selection {
+    background-color: $white;
+    color: $blue;
+}
+
+body {
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $blue;
+    color: $white;
+}
+
+header {
+    text-align: center;
+
+    h1 {
+        font-size: 40px;
+        font-family: "Montserrat";
+        margin: 0;
+    }
+
+    h3 {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+}
+
+.phrase {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 700px) {
+
+    header {
+        h1 {
+            font-size: 32px;
+        }
+
+        h3 {
+            font-size: 14px;
+        }
+    }
+
+    .id-jeu {
+        width: 170px !important;
+        height: 220px !important;
+
+        i {
+            font-size: 75px !important;
+        }
+
+        p {
+            font-size: 17px !important;
+        }
+
+        img {
+            height: 75px !important;
+        }
+
+        span {
+            font-size: 14px !important;
+        }
+    }
+
+    .phrase,
+    .copyright {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+section {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 80vw;
+
+    .id-jeu {
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        height: 270px;
+        width: 200px;
+        transition: 0.25s;
+
+        i {
+            font-size: 100px;
+            text-align: center;
+        }
+
+        span {
+            text-align: center;
+        }
+
+        p {
+            font-weight: 700;
+            font-size: 20px;
+            margin: 0;
+            text-align: center;
+        }
+
+        img {
+            height: 100px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.pokemon>img {
+    height: 65px !important;
+}
+
+.nintendo>img {
+    height: 30px !important;
+    filter: brightness(0) invert(1);
+}
+
+$colors: (
+    playstation: #003791,
+    xbox: #107C10,
+    nintendo: #E60012,
+    discord: #7289DA,
+    epic: #313131,
+    riot: #D32936,
+    brawl: #948924,
+    clash-royale: #1C16D2,
+    pokemon: #E4405F,
+    sus: #FF0000,
+);
+
+@each $name, $color in $colors {
+    .#{$name} {
+        background-color: rgba($color, 0.6);
+        border: 2.5px solid $color;
+
+        &:hover {
+            background-color: rgba($color, 0.3);
+        }
+    }
+}
+
+.copyright {
+    margin-top: 50px;
+}
