@@ -10,4 +10,4 @@ Faisant suite à mon site inspiré de Linktree ([Linktree_QBUTEAU](https://githu
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Sass/SCSS Badge](https://img.shields.io/badge/Sass/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-### © 2024 Quentin Buteau | Tous droits réservés
+### © 2024 - Quentin Buteau | Tous droits réservés
