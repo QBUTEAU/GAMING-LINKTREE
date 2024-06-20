@@ -1,4 +1,4 @@
-# Gaming Linktree
+# Gaming LINKTREE
 
 Page web personnelle promouvant mes comptes de jeu.
 
