@@ -3,7 +3,7 @@
 Page web personnelle promouvant mes comptes de jeu.
 
 ### 📜 Description :
-Faisant suite à mon site inspiré de Linktree ([Lien du repo](https://github.com/QBUTEAU/Linktree_QBUTEAU)), celui-ci permet de mettre en avant mes comptes sur les différentes plateformes et jeux vidéo, ainsi les utilisateurs peuvent copier l'identifiant de leur choix et me demander en ami.
+Faisant suite à mon site inspiré de Linktree ([Lien du dépôt](https://github.com/QBUTEAU/Linktree_QBUTEAU)), celui-ci permet de mettre en avant mes comptes sur les différentes plateformes et jeux vidéo, ainsi les utilisateurs peuvent copier l'identifiant de leur choix et me demander en ami.
 
 ### 💻 Langages utilisés :
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
